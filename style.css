@@ -1,0 +1,143 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+  }
+  h1, h2, h3 {
+    margin: 0;
+  }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  } 
+
+  /* Хедер */
+  
+  .hero {
+    background: linear-gradient(to right, #4CAF50, #2E7D32);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+  }
+  .hero .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .hero .logo {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+  }
+  .hero .logo span {
+    color: #FFD700;
+  }
+  .hero .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .hero .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .hero .hero-content h2 span {
+    color: #FFD700;
+  }
+  .hero .btn {
+    background: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .hero .btn:hover {
+    background: #FFB800;
+  }
+  
+  /* Секции */
+  .about-contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .my-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .services .service-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .services .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .services .card:hover {
+    transform: translateY(-10px);
+  }
+  .services .icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact-form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .contact-form button:hover {
+    background: #388E3C;
+  }
+  
+  /* Футер */
+
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
